@@ -1,15 +1,14 @@
 <template>
-  <Demo/>
+  <Repl />
 </template>
 
 <script>
-import Demo from '@/components/Demo'
+import { Repl } from '@vue/repl'
+import '@vue/repl/style.css'
 
 export default {
   name: 'Home',
-  components: {
-    Demo
-  },
+  components: { Repl },
   setup() {
   },
   methods: {
